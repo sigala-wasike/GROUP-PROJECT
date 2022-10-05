@@ -1,0 +1,31 @@
+
+
+body {
+    background-color: rgba(207, 131, 131, 0.489);
+    /* overflow: hidden; */
+}
+.flex-container{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 700px;
+}
+h1 {
+    text-decoration: double;
+    text-shadow: 3cm;
+    text-align: center;
+    color: black;
+}
+.text {
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+}
+.text:hover{
+    color: blue;
+    font-size: 2em;
+    font-weight: 500;
+}

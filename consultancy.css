@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+    /* background-image: url("https://images.pexels.com/photos/91217/pexels-photo-91217.jpeg?auto=compress&cs=tinysrgb&w=600"); */
+}
+article{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    font-size: 12;
+}
+h1 {
+    text-align: center;
+    color: rgb(11, 30, 11);
+    font-weight: 400;
+    background-color: rgb(95, 93, 83);
+}
+h4 {
+    font-weight: 800;
+    margin: auto;
+    margin-top: 1em;
+}
+img {
+    border-style: groove;
+    padding: 2px;
+    margin: auto;
+}

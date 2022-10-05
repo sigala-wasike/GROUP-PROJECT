@@ -1,0 +1,127 @@
+body{
+    background-color: gray;
+    /* overflow: hidden; */
+}
+.flex-container{
+    display: flex;
+    /* background-color: black; */
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    width: 700px;
+    top: 20px;
+}
+.flex-item-1{
+    background-color: rgb(41, 39, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid rgb(74, 51, 35); */
+}
+.flex-item-2{
+    background-color: rgb(41, 39, 39);
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid rgb(74, 51, 35); */
+}
+.flex-item-3{
+    background-color: rgb(41, 39, 39);
+    border-style: groove;
+    margin: 10px;
+    padding: 10px;
+    /* border: 2px solid rgb(74, 51, 35); */
+}
+h5{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    margin-right: 300px;
+}
+nav{
+    background-color: gray;
+    display: inline-flex;
+    gap: 0.3rem;
+}
+a {
+    flex: 1;
+    background-color: #333;
+    color: #fff;
+    border:solid;
+    padding: 0.2rem;
+    text-align: center;
+    text-decoration: double;
+    transition: all 0.5s ease-out;
+}
+a:hover,
+a:focus {
+    background-color: rgb(42, 241, 24);
+    color: blue;
+}
+/* ol{
+    display: block;
+} */
+/* ul{
+    display: flex;
+    flex-direction: row;
+    
+} */
+.example{
+    position: relative;
+    /* padding: 0;
+    display: block;
+    cursor: pointer;
+    overflow: hidden; */
+}
+/* .content{
+    position: absolute;
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    color: red;
+    font-size: 3em;
+    font-weight: 700;
+
+
+
+} */
+.text {
+    position: relative;
+    bottom: 150px;
+    left: 200px;
+    }
+    .text:hover{
+        color: blue;
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+
+header {
+    position: fixed;
+    width: 100%;
+    /* background-color: paleturquoise;   */
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    /* padding: 20px; */
+    background-color: black;
+    
+}
+a {
+    text-decoration: none;
+    /* font-size: 1rem; */
+}
+
+
